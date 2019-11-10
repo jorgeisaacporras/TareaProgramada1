@@ -74,7 +74,11 @@ etiqueta -o para la salida)
 ### Manejo de archivos:
 
 ### Creación de estructuras de datos:
-
+Para la creacion de estructuras de datos , necesitaremos tener en cuenta la entrada
+que se ingrese con los valores de las tuberías, el primer numero será asignado a una
+variable de tipo entero llamada *filas*, el segundo numero correspoderá a la variable
+de tipo entero nombrada *columnas*, la tercera y cuarta se asignaran a las variables
+tambien de tipo entero *entradas* y *salidas* respectivamente. Se inicializará un struct llamada *celda* (nombre dado por que será una estructura que represente la celda de cada tubería) Tendrá dentro de su estructura 4 variables de tipo int que nos servirá como booolean, las cuales representan los puntos cardinales, todos inicializadas en 0. Seguidamente inicializaremos una matriz de structs llamada *tuberías* , a esta se le asignará las tuberias que vienen despues de las entradas y salidas.
 ### Validación de un juego:
 
 A tomar en consideración:
@@ -128,4 +132,3 @@ Figura 2: Ejemplo básico del ciclo.
 ## Diseño:
 
 ---
-
