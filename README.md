@@ -130,5 +130,27 @@ Figura 2: Ejemplo básico del ciclo.
 ---
 
 ## Diseño:
+Para el diseño iniciaremos con lo que se pasará por archivo, aunque bien se sabe
+que esta parte de leer archivos tiene que estar en el diseño, se explicará mas
+ adelante, conforme los pasos se vayan dando.
+1. Leer el archivo.
+2. inicializar variables de tipo entero llamadas *filas* *columnas* *entradas* y
+ *salidas*.
+3. Crear un struct llamado *celda* con 4 enteros booleanos incializados, cada uno
+llamado *Norte* *Sur* *Este* *Oeste* .
+4. Leer cantidad de filas, columnas, entradas y salidas.
+5. Crear Matriz de structs 2+filas por 2+columnas.
+6. Declarar una subrutina  para la lectura de las entradas desde el salto de linea
+hasta la cantidad de entradas, donde cada salto de linea se sume.
+7. Declarar otra subrutina para la lectura de las salidas desde la finalizacion de
+la anterior subrutina, donde cada salto de linea se sume
+hasta la cantidad de salidas.
+8. Una vez establecidas las salidas y entradas procedemos a asignarlas en la matriz.
+9. Declarar una subrutina que permita leer caracter por caracter y asignarlos en
+la matriz, cada caracter modificará el struct por lo que se condicionará sus
+direcciones.
+10. Cerrar el archivo.
+11. Recorrer la matriz para darnos cuenta de las fugas.
+//Falta de terminar el diseño.
 
 ---
