@@ -14,7 +14,7 @@
 
 ---
 
-## Descripción corta:
+## Descripción General:
 
 El objetivo del proyecto es crear un juego en terminal de comandos que se asemeja
 al videojuego "Pipe Mania" o sus diversas variantes como "Pipe Dreams" donde una
@@ -35,7 +35,7 @@ Más detalles sobre el programa pueden ser encontrados en
 [este enlace](http://jeisson.ecci.ucr.ac.cr/progra2/2019b/proyectos/pipe_leak/ "Fuga en la tubería").
 
 ---
-
+#  Manual del desarollador:
 ## Análisis:
 
 En esta sección se proveen ideas adicionales para ahondar el análisis del programa
@@ -154,3 +154,5 @@ direcciones.
 //Falta de terminar el diseño.
 
 ---
+
+
