@@ -154,5 +154,5 @@ direcciones.
 //Falta de terminar el diseño.
 
 ---
-
+# Manual del Usuario:
 
